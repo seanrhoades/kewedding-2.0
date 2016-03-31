@@ -4,7 +4,7 @@ class Post < ActiveRecord::Base
     validates :image, presence: true
 
     has_attached_file :image,
-          styles: { :medium => "640x" }
+          styles: { :medium => "640x" },
           :storage => :s3,
           :bucket  => ENV['AWS_S3_BUCKET']
 
