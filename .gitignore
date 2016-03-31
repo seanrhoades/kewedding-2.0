@@ -11,3 +11,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ingnore aws.yml
+/config/aws.yml
