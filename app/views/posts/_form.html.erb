@@ -11,11 +11,11 @@
           </div>
           <div class="container-fluid">
             <div class="form-group text-center">
-              <h4>Upload an image (this is required):</h4>
+              <h4>Upload a photo:</h4>
               <%= f.input :image, label: false, input_html: { onChange: 'loadFile(event)' } %>
             </div>
             <div class="form-group text-center">
-              <%= f.input :caption, label: false, placeholder: 'Add your caption' %>
+              <%= f.input :caption, label: false, placeholder: 'Caption this photo' %>
             </div>
             <div class="form-group text-center">
               <%= f.button :submit, class: 'btn-success btn-block' %>
