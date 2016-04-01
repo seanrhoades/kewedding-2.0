@@ -14,7 +14,7 @@ en:
       last_attempt: "You have one more attempt before your account is locked."
       not_found_in_database: "Invalid %{authentication_keys} or password."
       timeout: "Your session expired. Please sign in again to continue."
-      unauthenticated: "Welcome to Katelyn & Eric's wedding site, #rhoadespartyof3! You can view information about the ceremony and events in the menu above. If you'd like to view or add photos to the photo feed, please log in or sign up to continue."
+      unauthenticated: "Welcome to Katelyn & Eric's wedding site, #rhoadespartyof3! You can view information about the ceremony and events in the menu above. If you'd like to view or add photos, please log in or sign up to continue. Enjoy!"
       unconfirmed: "You have to confirm your email address before continuing."
     mailer:
       confirmation_instructions:
@@ -43,7 +43,7 @@ en:
       update_needs_confirmation: "You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address."
       updated: "Your account has been updated successfully."
     sessions:
-      signed_in: "Signed in successfully."
+      signed_in: "You've signed in successfully!"
       signed_out: "Signed out successfully."
       already_signed_out: "Signed out successfully."
     unlocks:
