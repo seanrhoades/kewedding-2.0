@@ -30,13 +30,22 @@ html {
   }
 }
 
+a:hover a:active {
+  text-decoration: none;
+}
+
+h3 {
+  padding-bottom: 6px;
+  text-decoration: none;
+}
+
 body {
   background-color: #fafafa;
   font-family: 'WorkSans-Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
   height: 95%
 }
 
-a {
+ {
   text-decoration: none;
 }
 
