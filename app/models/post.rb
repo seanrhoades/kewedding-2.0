@@ -1,5 +1,5 @@
 class Post < ActiveRecord::Base
-    belongs_to :user, :order => "created_at DESC"
+    belongs_to :user
     validates :user_id, presence: true
     validates :image, presence: true
 
