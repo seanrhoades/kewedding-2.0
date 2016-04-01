@@ -48,15 +48,13 @@ body {
 .navbar-default {
   background-color: #125688;
   border-color: #4090db;
-  border-radius: 0 !important;
-  -moz-border-radius: 0 !important;
 }
 .navbar-default .navbar-brand {
-  color: #ffffff;
+  color: #ecf0f1;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ffffff;
+  color: #ced5db;
 }
 .navbar-default .navbar-text {
   color: #ecf0f1;
@@ -119,6 +117,9 @@ body {
 
 .navbar-default {
   height: 54px;
+  .navbar-nav li a {
+    color: #fafafa;
+  }
 }
 
 .navbar-container {
