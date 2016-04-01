@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   devise_for :users, :controllers => { registrations: 'registrations' }
   root 'posts#index'
   resources :posts do
-  esources :comments
+  resources :comments
   end
   get 'schedule/index'
 
