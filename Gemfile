@@ -42,6 +42,8 @@ gem 'paperclip'
 gem 'devise'
 #use simple_form to make simple forms
 gem 'simple_form'
+#use Kaminari for pagination
+gem 'kaminari'
 #use rails_12factor for heroku
 gem 'rails_12factor'
 

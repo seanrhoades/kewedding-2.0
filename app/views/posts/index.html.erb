@@ -1,3 +1,5 @@
-<% @posts.reverse_each do |post| %>
+<% @posts.each do |post| %>
   <%= render 'post', post: post %>
 <% end %>
+
+<%= paginate @posts %>
