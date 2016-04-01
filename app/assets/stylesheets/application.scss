@@ -33,6 +33,7 @@ html {
 body {
   background-color: #fafafa;
   font-family: 'WorkSans-Light', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  text-decoration: none;
   height: 95%
 }
 
@@ -46,15 +47,14 @@ body {
 }
 .navbar-brand {
   a {
-    color: #125688;
+    color: #ffffff;
   }
 }
 
 .navbar-default {
-  background-color: #fff;
   height: 54px;
   .navbar-nav li a {
-    color: #125688;
+    color: #fafafa;
   }
 }
 
@@ -75,7 +75,6 @@ body {
 /* ## POST CUSTOMISATIONS ## */
 
 .posts-wrapper {
-  padding-top: 40px;
   margin: 0 auto;
   max-width: 642px;
   width: 100%;
