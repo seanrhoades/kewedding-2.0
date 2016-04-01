@@ -49,12 +49,12 @@ body {
   background-color: #125688;
   border-color: #4090db;
 }
-.navbar-default .navbar-brand {
+.navbar-default .navbar-brand > a {
   color: #ecf0f1;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ced5db;
+  color: #ecf0f1;
 }
 .navbar-default .navbar-text {
   color: #ecf0f1;
@@ -98,6 +98,9 @@ body {
 .navbar-default .navbar-link:hover {
   color: #ced5db;
 }
+
+.navbar-nav > li > .dropdown-menu { background-color: #FF0000; }
+
 
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
