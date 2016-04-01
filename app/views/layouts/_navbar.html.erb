@@ -1,4 +1,4 @@
-<nav class="navbar" style="background-color: ">
+<nav class="navbar navbar-default">
   <div class="navbar-container">
     <div class="navbar-header">
       <button class="navbar-toggle collapsed" data-target="#bs-navbar-collapse-1" data-toggle="collapse" type="button">
@@ -6,8 +6,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
+      <div class="navbar-brand">
+        <%= link_to "#rhoadespartyof3", root_path %>
+      </div>
+    </div>
     <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-left">
+      <ul class="nav navbar-nav navbar-right">
         <% if user_signed_in? %>
           <li>
             <%= link_to "New Photo", new_post_path %>
@@ -25,9 +29,5 @@
         <% end %>
       </ul>
     </div>
-    <div class="navbar-brand">
-      <%= link_to "#rhoadespartyof3", root_path %>
-    </div>
-  </div>
   </div>
 </nav>
