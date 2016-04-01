@@ -48,9 +48,11 @@ body {
 .navbar-default {
   background-color: #125688;
   border-color: #4090db;
+  border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
 }
 .navbar-default .navbar-brand {
-  color: #ecf0f1;
+  color: #ffffff;
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
