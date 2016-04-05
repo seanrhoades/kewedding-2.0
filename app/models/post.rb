@@ -8,7 +8,7 @@ class Post < ActiveRecord::Base
           :bucket  => ENV['AWS_S3_BUCKET']
 
     validates_attachment_content_type :image, :content_type => /\Aimage\/.*\Z/
-    paginates_per 10
+    paginates_per 7
 
     has_many :comments, dependent: :destroy
 
