@@ -1,28 +1,21 @@
-== README
+== #rhoadespartyof3
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a site I created for my brother's wedding. It includes information about the event, an option to sign-up and log-in, which gives you access to a photo uploader. 
 
-Things you may want to cover:
+I used the following technologies:
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Ruby 2.3.0
+* Rails 4.2.5.1
+* HTML5
+* CSS3
+* Twitter Bootstrap
+* Javascript
+* jQuery
+* AJAX
+* Heroku to deploy the site
+* Postgres for the database
+* Amazon Web Services to store photos
+* Devise gem for user authentication
+* Paperclip gem for photo uploading
+* simple_form gem for form generation
+* Kaminari gem for pagination
