@@ -1,7 +1,6 @@
 <div class="posts-wrapper">
   <div class="post">
     <div class="post-head">
-      <div class="thumb-img"></div>
       <div class="user-name">
         <%= post.user.name %>
       </div>
@@ -26,12 +25,12 @@
           <% end %>
         </div>
       </div>
-    </div>
-    <div>
+      <div>
         <%= form_for([post, post.comments.build], remote: true) do |f| %>
           <%= f.text_field :content, placeholder: 'Add a comment...', class: "comment_content", id: "comment_content_#{post.id}" %>
         <% end %><br />
       </div>
     </div>
+
+    </div>
   </div>
-</div>
