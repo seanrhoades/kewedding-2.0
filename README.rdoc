@@ -1,6 +1,6 @@
 == #rhoadespartyof3
 
-This is a site I created for my brother's wedding. It includes information about the event, an option to sign-up and log-in, which gives you access to a photo uploader. 
+This is a site I created for my brother's wedding. It includes information about the event, and an option to sign up and log in, which gives you access to a photo uploader. 
 
 I used the following technologies:
 
