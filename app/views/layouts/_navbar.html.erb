@@ -17,8 +17,10 @@
         <li>
             <%= link_to "Schedule & Seating Chart", schedule_index_path %>
         </li>
-
         <% if user_signed_in? %>
+          <li>
+            <%= link_to "Photo Stream", root_path %>
+          </li>
           <li>
             <%= link_to "Upload a New Photo", new_post_path %>
           </li>
